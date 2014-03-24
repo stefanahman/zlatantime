@@ -1,7 +1,13 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#zclock {
+  font: 128px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-a {
-  color: #00b7ff;
+@media all and (min-width: 320px) {
+  #zclock {
+    font-size: 64px;
+  }
+}
+@media all and (min-width: 720px) {
+  #zclock {
+    font-size: 128px;
+  }
 }
